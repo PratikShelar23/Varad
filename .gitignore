@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+*.log
+*.sqlite
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Electron-specific files
+*.asar
+electron-builder.cache/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
